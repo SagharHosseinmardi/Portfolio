@@ -1,9 +1,9 @@
-
+import Navbar from "../layout/Navbar";
 function home() {
   return (
-  
-    
-
+    <>
+      <div className="home">
+        <Navbar />
         <div className="float-text">
           <div className="de_social-icons">
             <span className="buton">
@@ -18,8 +18,8 @@ function home() {
           </div>
           <span>Follow Me</span>
         </div>
-     
-  
+      </div>
+    </>
   );
 }
 
